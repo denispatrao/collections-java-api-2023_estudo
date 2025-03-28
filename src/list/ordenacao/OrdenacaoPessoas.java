@@ -28,6 +28,7 @@ public class OrdenacaoPessoas {
         return pessoasPorAltura;
     }
 
+    //exibindo pessoas
     public void exibirPessoa(){
         List<Pessoa> pessoaParaExibir = new ArrayList<>();
         for (Pessoa p : pessoas){

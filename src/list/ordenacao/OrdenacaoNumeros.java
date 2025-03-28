@@ -17,12 +17,14 @@ public class OrdenacaoNumeros {
         listaDeNumeros.add(numero);
     }
 
+    //fazendo comparação ascendente
     public List<Integer> ordenarAscendente(){
         List<Integer> ascendente = new ArrayList<>(listaDeNumeros);
         Collections.sort(ascendente);
         return ascendente;
     }
 
+    //fazendo comparação Descendente
     public List<Integer> ordenarDescendente(){
         List<Integer> descendente = new ArrayList<>(listaDeNumeros);
         descendente.sort(Comparator.reverseOrder());

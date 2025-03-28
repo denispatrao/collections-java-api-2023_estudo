@@ -40,6 +40,7 @@ public class Pessoa implements Comparable<Pessoa> {
                 '}' + "\n";
     }
 
+    //usando comparator
     static class ComparatorPorAltura implements Comparator<Pessoa> {
 
         @Override
