@@ -3,6 +3,7 @@ package set.operacoesbasicas;
 import java.util.HashSet;
 import java.util.Set;
 
+//set
 public class ConjuntoPalavrasUnica {
 
     private Set<String> palavrasUnicas;

@@ -3,6 +3,8 @@ package set.operacoesbasicas;
 import java.util.HashSet;
 import java.util.Set;
 
+
+//set
 public class ConjuntoConvidados {
 
     private Set<Convidado> convidadoSet;

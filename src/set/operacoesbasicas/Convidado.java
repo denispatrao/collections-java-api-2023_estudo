@@ -2,6 +2,7 @@ package set.operacoesbasicas;
 
 import java.util.Objects;
 
+//set
 public class Convidado {
 
     private String nome;
